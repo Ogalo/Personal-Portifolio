@@ -1,72 +1,15 @@
 *{
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
-  font-family: 'Josefin Sans', sans-serif;
 }
 
-/*Navigation Bar Styling*/
-.navBar{
- display: flex;
- margin: 20px;
- justify-content: space-between;
+.main {
+  width: 100%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0,0,0,0.5)50%), url(../images/fernando-hernandez-lVuV7AcfOrY-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
 }
 
-.navBar .logo {
-  padding: 30px;
-  
-}
-
-
-
-.navBar ul {
-  margin-left: +250px;
-}
-
-.navBar ul li {
-  display: inline-block;
-  justify-content: space-between;
-  padding: 30px;
-  
-}
-
-.navBar ul li a {
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-}
-
-.navBar .btn {
-  padding: 5px;
-  margin: 5px;
-}
-
-.navBar .btn a {
-  margin: 2px;
-  padding: 2px;
-  text-decoration: none;
-  
-}
-
-/*home page style*/
-.main{
-  display: flex;
-  justify-content:space-between;
-  align-items: center;
-
-}
-
-.nameHire{
- width: 50%;
- justify-content: center;
- margin: 60px;
-}
-
-.nameHire h1 {
-  padding: 20px;
-}
-
-.imgProfile{
- width: 60%;
- margin-right: 30px;
-}
+.
